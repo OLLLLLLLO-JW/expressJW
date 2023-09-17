@@ -1,4 +1,20 @@
-### GET Request 1
+@endpoingPhoenix = Phoenix
+
+### Base GET Request 1
 GET {{localHostName}}
 Content-Type: application/json
 
+
+### Base POST Request 1
+POST {{localHostName}}
+Content-Type: application/json
+
+#  EXC request Body
+# <request>
+#     <name>sample</name>
+#     <time>Wed, 21 Oct 2015 18:27:50 GMT</time>
+# </request>
+
+### Phoenix Get Request 1
+GET {{localHostName}}/{{endpoingPhoenix}}
+Content-Type: application/json
