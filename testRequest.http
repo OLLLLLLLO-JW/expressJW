@@ -1,0 +1,4 @@
+### GET Request 1
+GET {{localHostName}}
+Content-Type: application/json
+
