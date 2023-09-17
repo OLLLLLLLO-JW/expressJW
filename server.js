@@ -1,7 +1,7 @@
 const express = require('express');
 const server = express();
 const PORT = process.env.PORT || 3000;
-const router = require('./router.js');
+const router = require('./router/router.js');
 const testReq = require('./testRequest.http');
 
 server.use((req, res, next) => {
