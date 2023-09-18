@@ -1,11 +1,12 @@
 @endpoingPhoenix = Phoenix
+@endpoingFlagStaff = FlagStaff
 
-### Base GET Request 1
+### Base GET Request 1 Missing Endpoint
 GET {{localHostName}}
 Content-Type: application/json
 
 
-### Base POST Request 1
+### Base POST Request 1 Missing Endpoint
 POST {{localHostName}}
 Content-Type: application/json
 
@@ -18,3 +19,8 @@ Content-Type: application/json
 ### Phoenix Get Request 1
 GET {{localHostName}}/{{endpoingPhoenix}}
 Content-Type: application/json
+
+### Flagstaff Get Request 1
+GET {{localHostName}}/{{endpoingFlagStaff}}
+Content-Type: application/json
+

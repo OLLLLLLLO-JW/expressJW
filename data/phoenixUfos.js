@@ -1,8 +1,6 @@
-const { response } = require("express");
-
 const responseMap = {
 
-    '/Phoenix': 
+    'Phoenix': 
     [
     {"city":"Phoenix","state":"Arizona","lat":33.452,"lng":-112.074},
     {"city":"Phoenix","state":"Arizona","lat":33.452,"lng":-112.165},
